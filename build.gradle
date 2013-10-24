@@ -1,0 +1,8 @@
+apply plugin: 'jetty'
+
+jettyRun {
+    webXml null
+}
+war{
+    webXml null
+}
